@@ -1,0 +1,20 @@
+# Set default behavior for all files to use LF
+* text=auto
+
+# Treat all .sh files as text and use LF
+*.sh text eol=lf
+
+# Treat all .bat files as text and use CRLF
+*.bat text eol=crlf
+
+# Mark image files as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Handle Markdown as text
+*.md text
+
+# Example for using Git LFS for large files
+# *.psd filter=lfs diff=lfs merge=lfs -text
